@@ -93,8 +93,8 @@ namespace CommmentBot
                     {
                         driver.Navigate().Refresh();
                         Thread.Sleep(3000);
-                        driver.FindElement(By.XPath("//textarea[@aria-label='Adicione um comentário...']")).SendKeys("nunca ganhei um sorteio :/ kkkk");
-                        driver.FindElement(By.XPath("//button[contains(text(),'Publicar')]")).Click();
+                        //driver.FindElement(By.XPath("//textarea[@aria-label='Adicione um comentário...']")).SendKeys("nunca ganhei um sorteio :/ kkkk");
+                        //driver.FindElement(By.XPath("//button[contains(text(),'Publicar')]")).Click();
                     }
                 }
                 finally
